@@ -1,0 +1,16 @@
+============================================================
+  RESUMEN DE EXTRACCIÓN DE KEYPOINTS
+============================================================
+  Tiempo total:    465.1 s
+  Archivo salida:  X:\ISTS\Investigación\Chatbot Ergo\Python\Generación del modelo\dataset_posturas.csv
+  Total filas CSV: 1893
+  Columnas:        59
+
+  Por clase:
+    BIEN DE PIE            ok= 612  sin_pose=   8  error=  0  total= 620
+    BIEN LEVANTANDO        ok=  81  sin_pose=   1  error=  0  total=  82
+    BIEN SENTADOS          ok= 255  sin_pose=   3  error=  0  total= 258
+    MAL DE PIE             ok= 581  sin_pose=   7  error=  0  total= 588
+    MAL LEVANTANDO         ok=  83  sin_pose=   4  error=  0  total=  87
+    MAL SENTADOS           ok= 281  sin_pose=   2  error=  0  total= 283
+============================================================
