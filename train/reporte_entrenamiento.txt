@@ -1,0 +1,35 @@
+=======================================================
+  REPORTE — CLASIFICADOR DE POSTURAS
+=======================================================
+  Features:      56
+  Train:         1325
+  Val:           284
+  Test:          284
+  Épocas reales: 52
+  Tiempo:        27.4s
+  Test Loss:     0.6785
+  Test Accuracy: 85.92%
+
+  Classification report:
+                 precision    recall  f1-score   support
+
+    BIEN DE PIE     0.8384    0.9022    0.8691        92
+BIEN LEVANTANDO     0.8333    0.8333    0.8333        12
+  BIEN SENTADOS     0.8718    0.8947    0.8831        38
+     MAL DE PIE     0.8861    0.8046    0.8434        87
+ MAL LEVANTANDO     0.7692    0.7692    0.7692        13
+   MAL SENTADOS     0.8810    0.8810    0.8810        42
+
+       accuracy                         0.8592       284
+      macro avg     0.8466    0.8475    0.8465       284
+   weighted avg     0.8604    0.8592    0.8588       284
+
+  Matriz de confusión:
+['BIEN DE PIE', 'BIEN LEVANTANDO', 'BIEN SENTADOS', 'MAL DE PIE', 'MAL LEVANTANDO', 'MAL SENTADOS']
+[[83  1  0  8  0  0]
+ [ 1 10  0  0  1  0]
+ [ 0  0 34  0  0  4]
+ [14  1  0 70  2  0]
+ [ 1  0  0  1 10  1]
+ [ 0  0  5  0  0 37]]
+=======================================================
