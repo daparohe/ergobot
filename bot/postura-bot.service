@@ -1,0 +1,17 @@
+[Unit]
+Description=Bot de análisis de postura ergonómica
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=electronica
+WorkingDirectory=/home/electronica/Desktop/chergo
+ExecStart=/usr/bin/python /home/electronica/Desktop/chergo/bot_posturas.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
