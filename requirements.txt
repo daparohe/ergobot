@@ -1,0 +1,9 @@
+python-telegram-bot>=21.0
+mediapipe>=0.10
+opencv-python>=4.9
+numpy>=1.26
+tflite-runtime>=2.14  ; platform_machine=="aarch64"
+tensorflow>=2.16      ; platform_machine!="aarch64"
+scikit-learn>=1.4
+pandas>=2.2
+matplotlib>=3.8
